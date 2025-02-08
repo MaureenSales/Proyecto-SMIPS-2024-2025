@@ -2262,8 +2262,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(2580,400)" to="(2590,400)"/>
     <wire from="(2320,220)" to="(2330,220)"/>
     <wire from="(1490,310)" to="(1540,310)"/>
-    <wire from="(3040,300)" to="(3050,300)"/>
     <wire from="(3060,160)" to="(3070,160)"/>
+    <wire from="(3040,300)" to="(3050,300)"/>
     <wire from="(1260,240)" to="(1260,250)"/>
     <wire from="(1320,220)" to="(1370,220)"/>
     <wire from="(1250,390)" to="(1300,390)"/>
@@ -2368,9 +2368,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(2320,160)" to="(2330,160)"/>
     <wire from="(80,1350)" to="(380,1350)"/>
     <wire from="(1500,340)" to="(1550,340)"/>
+    <wire from="(3060,180)" to="(3070,180)"/>
     <wire from="(3050,250)" to="(3060,250)"/>
     <wire from="(3040,240)" to="(3050,240)"/>
-    <wire from="(3060,180)" to="(3070,180)"/>
     <wire from="(1500,340)" to="(1500,350)"/>
     <wire from="(2230,590)" to="(2230,650)"/>
     <wire from="(2230,50)" to="(2360,50)"/>
@@ -3113,14 +3113,14 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="south"/>
       <a name="label" val="S_DAw"/>
     </comp>
+    <comp lib="0" loc="(310,730)" name="Tunnel">
+      <a name="label" val="stack"/>
+    </comp>
     <comp lib="0" loc="(2410,320)" name="Pin">
       <a name="facing" val="south"/>
       <a name="output" val="true"/>
       <a name="width" val="2"/>
       <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(310,730)" name="Tunnel">
-      <a name="label" val="stack"/>
     </comp>
     <comp lib="0" loc="(2020,380)" name="Tunnel">
       <a name="facing" val="east"/>
@@ -3244,12 +3244,12 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="east"/>
       <a name="label" val="and"/>
     </comp>
-    <comp lib="1" loc="(2410,350)" name="OR Gate">
-      <a name="width" val="2"/>
-    </comp>
     <comp lib="0" loc="(1540,1110)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="andi"/>
+    </comp>
+    <comp lib="1" loc="(2410,350)" name="OR Gate">
+      <a name="width" val="2"/>
     </comp>
     <comp lib="0" loc="(1260,1050)" name="Tunnel">
       <a name="facing" val="south"/>
@@ -3335,12 +3335,12 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="text" val="SWITCH"/>
       <a name="font" val="Segoe UI Semibold plain 25"/>
     </comp>
-    <comp lib="0" loc="(3110,270)" name="Tunnel">
-      <a name="label" val="PC"/>
-    </comp>
     <comp lib="0" loc="(1450,1050)" name="Tunnel">
       <a name="facing" val="south"/>
       <a name="label" val="EndS"/>
+    </comp>
+    <comp lib="0" loc="(3110,270)" name="Tunnel">
+      <a name="label" val="PC"/>
     </comp>
     <comp lib="0" loc="(2050,370)" name="Tunnel">
       <a name="label" val="Type_W"/>
