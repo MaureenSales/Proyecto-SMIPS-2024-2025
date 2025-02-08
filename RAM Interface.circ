@@ -147,7 +147,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="text" val="ALU"/>
     </tool>
   </lib>
-  <lib desc="file#Ram_RW.circ" name="7"/>
   <main name="Endian Converter"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
@@ -381,16 +380,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="Bank"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(640,220)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="CS"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-    </comp>
-    <comp lib="0" loc="(300,590)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="Rst"/>
-    </comp>
-    <comp lib="0" loc="(250,460)" name="Tunnel">
+    <comp lib="0" loc="(990,240)" name="Tunnel">
+      <a name="facing" val="east"/>
       <a name="width" val="32"/>
       <a name="label" val="RAM OUT 3"/>
     </comp>
@@ -515,7 +506,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(1080,510)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
-      <a name="label" val="RAM_Write"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="RAMReady"/>
       <a name="labelloc" val="east"/>
     </comp>
     <comp lib="0" loc="(250,380)" name="Tunnel">
@@ -703,8 +695,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     </comp>
     <comp lib="0" loc="(500,430)" name="Tunnel">
       <a name="facing" val="north"/>
-      <a name="label" val="Clear"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
+      <a name="label" val="RST"/>
+      <a name="labelfont" val="SansSerif plain 9"/>
     </comp>
     <comp lib="0" loc="(250,460)" name="Tunnel">
       <a name="width" val="32"/>
